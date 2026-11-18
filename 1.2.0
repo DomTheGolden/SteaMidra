@@ -1,0 +1,23 @@
+Collecting google-auth-oauthlib
+  Using cached google_auth_oauthlib-1.5.0-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: google-auth!=2.43.0,!=2.44.0,!=2.45.0,<3.0.0,>=2.15.0 in .\.venv\Lib\site-packages (from google-auth-oauthlib) (2.62.2)
+Collecting requests-oauthlib>=0.7.0 (from google-auth-oauthlib)
+  Using cached requests_oauthlib-2.0.0-py2.py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in .\.venv\Lib\site-packages (from google-auth!=2.43.0,!=2.44.0,!=2.45.0,<3.0.0,>=2.15.0->google-auth-oauthlib) (0.4.2)
+Requirement already satisfied: cryptography>=41.0.5 in .\.venv\Lib\site-packages (from google-auth!=2.43.0,!=2.44.0,!=2.45.0,<3.0.0,>=2.15.0->google-auth-oauthlib) (50.0.2)
+Requirement already satisfied: cffi>=2.0.0 in .\.venv\Lib\site-packages (from cryptography>=41.0.5->google-auth!=2.43.0,!=2.44.0,!=2.45.0,<3.0.0,>=2.15.0->google-auth-oauthlib) (2.1.1)
+Requirement already satisfied: pycparser in .\.venv\Lib\site-packages (from cffi>=2.0.0->cryptography>=41.0.5->google-auth!=2.43.0,!=2.44.0,!=2.45.0,<3.0.0,>=2.15.0->google-auth-oauthlib) (3.12)
+Requirement already satisfied: pyasn1<0.7.0,>=0.6.1 in .\.venv\Lib\site-packages (from pyasn1-modules>=0.2.1->google-auth!=2.43.0,!=2.44.0,!=2.45.0,<3.0.0,>=2.15.0->google-auth-oauthlib) (0.6.5)
+Collecting oauthlib>=3.0.0 (from requests-oauthlib>=0.7.0->google-auth-oauthlib)
+  Using cached oauthlib-4.0.1-py3-none-any.whl.metadata (8.6 kB)
+Requirement already satisfied: requests>=2.0.0 in .\.venv\Lib\site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib) (2.34.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in .\.venv\Lib\site-packages (from requests>=2.0.0->requests-oauthlib>=0.7.0->google-auth-oauthlib) (3.5.2)
+Requirement already satisfied: idna<4,>=2.5 in .\.venv\Lib\site-packages (from requests>=2.0.0->requests-oauthlib>=0.7.0->google-auth-oauthlib) (3.20)
+Requirement already satisfied: urllib3<3,>=1.26 in .\.venv\Lib\site-packages (from requests>=2.0.0->requests-oauthlib>=0.7.0->google-auth-oauthlib) (2.8.0)
+Requirement already satisfied: certifi>=2023.5.7 in .\.venv\Lib\site-packages (from requests>=2.0.0->requests-oauthlib>=0.7.0->google-auth-oauthlib) (2026.10.23)
+Using cached google_auth_oauthlib-1.5.0-py3-none-any.whl (20 kB)
+Using cached requests_oauthlib-2.0.0-py2.py3-none-any.whl (24 kB)
+Using cached oauthlib-4.0.1-py3-none-any.whl (161 kB)
+Installing collected packages: oauthlib, requests-oauthlib, google-auth-oauthlib
+
+Successfully installed google-auth-oauthlib-1.5.0 oauthlib-4.0.1 requests-oauthlib-2.0.0

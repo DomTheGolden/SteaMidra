@@ -1,0 +1,2 @@
+import rarfile
+print('OK')
